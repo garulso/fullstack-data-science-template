@@ -1,0 +1,17 @@
+name: data-science-101
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip
+  - pip:
+    - mlflow
+    - fastapi
+    - uvicorn
