@@ -32,3 +32,7 @@
 - ¿Es correcto usar la mediana para `Age`? ¿Qué pasa si hay diferencias por género/clase?
 - Los outliers en `Fare` no son errores: reflejan realidad histórica (clase alta pagó mucho más).
 
+## 🔁 Consolidación (sábado):
+- Imputar con mediana rellenó 177 edades faltantes.
+- El pico en 28 años es artificial (sesgo por imputación).
+- Mejor alternativa futura: imputar por grupo (ej: mediana por Pclass + Sex).
